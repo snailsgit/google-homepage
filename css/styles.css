@@ -55,10 +55,24 @@ main{
      height: 28px;
      margin-bottom: 30px;
      border-radius: 5rem;
-     padding-left: 10px;
+     padding-left: 40px;
      padding-right: 10px;
     font-size: 16px;
+    
+   }
 
+   .icon-sr{
+       position: relative;
+       width: 17px;
+       left: 35px;
+       top: 4px;
+   }
+
+   .icon-voice{
+       width: 15px;
+       position: relative;
+       top: 5px;
+       right: 35px;
    }
 
    @media screen and (max-width: 800px) {
