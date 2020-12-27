@@ -1,65 +1,116 @@
- 
-ul {
-    padding: 0;
-    margin: 0;
+nav ul {
+     
     list-style-type: none;
 }
 
 nav {
-    text-align: end;
+
+    position: absolute;
+    top: 10px;
+    right: 25px;
+      
 }
 
 nav a {
-    color: black;
+    color: rgb(46, 44, 44);
 }
 
-li {
-    padding: 0;
-    margin: 0;
-    padding-right: 8px;
-    display: inline;
-}
+nav li {
+     display: inline;
+  }
 
-a {
+nav a {
+ 
     text-decoration: none;
 
 }
 
 .bento-menu {
+    position: relative;
+    top: 7px;
     width: 25px;
 }
 
 .img-profile {
+    position: relative;
+    top: 7px;
+    margin-left: 10px;
     width: 35px;
     border-radius: 50%;
-}
+ }
 
-.google-image-banner {
+main{
+    position: relative;
+    top: 21vh;
     text-align: center;
-    padding-top: 150px;
-    padding-bottom: 20px;
-}
+    width: 100vw;
+ }
+.banner-image{
+ padding-bottom: 30px;
+ }
+ #search{
+     width: 500px;
+     height: 28px;
+     margin-bottom: 30px;
+     border-radius: 5rem;
+     padding-left: 10px;
+     padding-right: 10px;
+    font-size: 16px;
 
-.search {
-    text-align: center;
-}
+   }
+  #search:hover{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.24), 0 2px 4px 0 rgba(0,0,0,0.19);
+  }
+  .btn-search{
+      margin-right: 20px;
+      padding: 10px;
+      padding-left: 15px;
+      padding-right: 15px;
+      border: none;
+      border-radius: 5px;
+      font-size: 14px;
 
-#search-box {
-    width: 550px;
-    padding-bottom: 15px;
-    margin-bottom: 20px;
-    border-radius: 20px;
-}
- 
-input{
-    margin: 8px;
-    padding: 7px;
-}
+  }
+  .btn-lucky{
+    padding: 10px;
+    padding-left: 15px;
+      padding-right: 15px;
+      border: none;
+      border-radius: 5px;
+      font-size: 14px;
+
+
+  }
+  .btn-search:hover{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.24), 0 2px 4px 0 rgba(0,0,0,0.19);
+    border: thin;
+  }
+  .btn-lucky:hover{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.24), 0 2px 4px 0 rgba(0,0,0,0.19);
+    border: thin;
+  }
+  .languages{
+      padding-top: 40px;
+
+      
+  }
+
+  .languages a{
+      text-decoration: none;
+  }
+
 footer{
-   
-    background-color: #f2f2f2;
-    padding-top: 10px;
+    background-color: rgb(240, 240, 241);
+    color: rgb(109, 110, 116);
+    position: absolute;
+    bottom:0px;
+    width: 100vw;
 }
+.footer-text{
+    margin-left: 20px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
- 
- 
+
+}
