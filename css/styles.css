@@ -48,6 +48,8 @@ main{
 .banner-image{
  padding-bottom: 30px;
  }
+
+
  #search{
      width: 30vw;
      height: 28px;
@@ -58,6 +60,16 @@ main{
     font-size: 16px;
 
    }
+
+   @media screen and (max-width: 800px) {
+ 
+   #search{
+        width: 80vw;
+   }
+ }
+ 
+
+  
   #search:hover{
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.24), 0 2px 4px 0 rgba(0,0,0,0.19);
   }
@@ -91,6 +103,7 @@ main{
   }
   .languages{
       padding-top: 40px;
+      padding-bottom: 20px;
 
       
   }
