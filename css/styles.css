@@ -1,0 +1,65 @@
+ 
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+nav {
+    text-align: end;
+}
+
+nav a {
+    color: black;
+}
+
+li {
+    padding: 0;
+    margin: 0;
+    padding-right: 8px;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.bento-menu {
+    width: 25px;
+}
+
+.img-profile {
+    width: 35px;
+    border-radius: 50%;
+}
+
+.google-image-banner {
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 20px;
+}
+
+.search {
+    text-align: center;
+}
+
+#search-box {
+    width: 550px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+ 
+input{
+    margin: 8px;
+    padding: 7px;
+}
+footer{
+   
+    background-color: #f2f2f2;
+    padding-top: 10px;
+}
+
+ 
+ 
